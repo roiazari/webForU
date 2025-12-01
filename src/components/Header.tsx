@@ -79,7 +79,7 @@ const Header = () => {
         </div>
 
         <a href="#" className="flex items-center gap-2 text-2xl font-bold text-glow-blue">
-          <img src="/favicon.svg" alt="WebForU Logo" className="h-8 w-8" />
+          <img src="https://roiazari.github.io/webForU/favicon.svg" alt="WebForU Logo" className="h-8 w-8" />
           <span>WebForU</span>
         </a>
       </div>
