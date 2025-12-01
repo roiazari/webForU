@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // This script will check for a file, and if it fails to find it, 
+      // it redirects to index.html with the path intact.
+
+      var path = window.location.pathname;
+      var redirect = path.split('/').pop().length; 
+      
+      // If the path looks like a file (e.g., .css, .js, or index.html), let it pass.
+      if (path.includes('.')) return;
+
+      // If it's a directory (i.e., a React route)
+      window.location.replace('/webForU/index.html' + path);
+      
+    </script>
+    <meta http-equiv="refresh" content="0; url=/webForU/index.html" />
+  </head>
+  <body>
+    <a href="/webForU/">Redirecting...</a>
+  </body>
+</html>
