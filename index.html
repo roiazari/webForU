@@ -9,15 +9,25 @@
     <meta name="author" content="רועי עזרי" />
     <meta name="keywords" content="web developer, portfolio, React, TypeScript, frontend developer, web design" />
 
+    <meta property="og:url" content="https://roiazari.github.io/webForU/" />
     <meta property="og:title" content="WebForU" />
     <meta property="og:description" content="בניית אתרים לעצמאים ועסקים קטנים" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="./logo2.png" />
+    <meta property="og:image" content="https://roiazari.github.io/webForU/logo2.png" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="WebForU"/>
-    <meta name="twitter:description" content="בניית אתרים לעצמאים ועסקים קטנים"  />
-    <meta name="twitter:image" content="./logo2.png"/>
+    <meta name="twitter:description" content="בניית אתרים לעצמאים ועסקים קטנים"  />
+    <meta name="twitter:image" content="https://roiazari.github.io/webForU/logo2.png"/>
+
+    <script type="text/javascript">
+      var path = sessionStorage.getItem('redirectPath');
+      if (path) {
+        sessionStorage.removeItem('redirectPath');
+        // שחזור הנתיב המקורי לאחר ההפניה מ-404.html
+        window.history.replaceState(null, null, path); 
+      }
+    </script>
   </head>
 
   <body>
